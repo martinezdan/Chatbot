@@ -1,0 +1,27 @@
+{"intents":[
+    {"tag": "saudacao",
+    "patterns": ["Ola","Opa","Oi"],
+    "responses": ["Oi","Olá"]
+    },
+
+    {"tag": "despedida",
+    "patterns": ["valeu", "tchau", "Obrigado", "flw"],
+    "responses": ["Até breve","tchau","falou"]
+    },
+
+    {"tag": "submeter projeto PIPE",
+    "patterns":["como implementar um projeto PIPE?","quero implementar um projeto PIPE"],
+    "responses":["A submissão de propostas ao PIPE pode ser feita a qualquer momento do ano pelo SAGe"]
+    },
+
+    {"tag":"objetivos do PIPE",
+    "patterns":["quais sao os objetivos do PIPE?", "o PIPE tem objetivos?", "qual objetivo do PIPE?"],
+    "responses":["São objetivos do PIPE: 1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas, 2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social, 3. Induzir o aumento do investimento privado em pesquisa tecnológica, 4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica, 5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
+    },
+
+    {"tag":"O que é o PIPE",
+    "patterns":["o que e o PIPE", "o que é o PIPE", "o que faz o PIPE?"],
+    "responses":["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo"]
+    }
+]
+}
